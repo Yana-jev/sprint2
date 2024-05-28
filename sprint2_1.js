@@ -471,10 +471,11 @@ miPromesa.then((mensaje) => {
 
 async function imprimirResultado() {
 
-   const resultado = await miPromesa;
+   const resultado = await miPromesa2;
 
    console.log(resultado); 
 }
+
 
 //Nivel 2
 //Ejercicio 5
@@ -482,15 +483,15 @@ async function imprimirResultado() {
 async function imprimirResultado() {
    try {
    
-   const resultado = await miPromesa;
+   const resultado = await miPromesa2;
    
    console.log(resultado);
    } catch (error) {
 
-   console.error('Произошла ошибка:', error);
+   console.error('error:', error);
    }
 }
-
+imprimirResultado()
 //Nivel 3
 //Ejercicio 6
 //Promise.all: Crea dos promesas que se resuelvan después de 2 y 3 segundos, respectivamente. Use Promise.all para esperar que ambas promesas se resuelvan, e imprime los resultados en la consola.
