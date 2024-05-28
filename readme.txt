@@ -1,5 +1,5 @@
 # Ejercicios para practicar funciones
-
+#Es conveniente abrir la consola del navegador al apenas se carga la página
 ## Bloque 1.1: Funciones de flecha
 
 ### Nivel 1: Ejercicio 1
